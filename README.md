@@ -12,7 +12,7 @@ import ColumnsGrid from 'vue-columns-grid'
 This example shows the usage of all possible properties. See table below to see combinations and overrides.
 
 ```
-<columns-grid gap="1em">
+<columns-grid gap="1em 2em" :columns="3" auto="fill" width="300px">
     <!-- items -->
 </columns-grid>
 ```
