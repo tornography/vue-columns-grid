@@ -1,7 +1,28 @@
 {
-  "name": "vue-column-grid",
-  "version": "0.2.1",
-  "private": true,
+  "name": "@tornography/vue-columns-grid",
+  "description": "Vue component to replace bootstrap columns.",
+  "author": "Manuel Schulz",
+  "version": "0.3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tornography/vue-columns-grid.git"
+  },
+  "keywords": [
+    "vue",
+    "css",
+    "grid",
+    "columns"
+  ],
+  "license": "ISC",
+  "main": "./dist/vue-columns-grid.common",
+  "unpkg": "./dist/vue-columns-grid.umd.min.js",
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "browser": {
+    "./src": "src/components/ColumnsGrid.vue"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

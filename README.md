@@ -2,6 +2,10 @@
 
 This is a [vuejs](https://vuejs.org/) component to replace the commonly used [bootstrap grid](https://getbootstrap.com/docs/4.3/layout/grid/) or the corresponding [bootstrap vue components](https://bootstrap-vue.js.org/docs/components/layout). It's ment to use css grid on the parent, to simplify the usage of common grid setups.
 
+## Demo
+
+See a [live example](https://codesandbox.io/s/vue-columns-grid%20example-u7ece) of this component.
+
 ## Usage
 ```
 import ColumnsGrid from 'vue-columns-grid'
